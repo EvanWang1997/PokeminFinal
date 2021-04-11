@@ -1,0 +1,236 @@
+:- module(moves,[getmove/3]).
+getmove(N, D, T) :-
+    move(N, D, T).
+
+move(splash, 0, water).
+move(harden, 0, normal).
+move(attract, 0, normal).
+
+move(struggle, 10, normal).
+
+move(poison_sting, 15, poison).
+
+move(absorb, 20, grass).
+
+move(ice_ball, 30, ice).
+move(smog, 30, poison).
+move(astonish, 30, ghost).
+
+move(peck, 35, flying).
+
+move(echoed_voice, 40, normal).
+move(tackle, 40, normal).
+move(scratch, 40, normal).
+move(pound, 40, normal).
+move(payday, 40, normal).
+move(ember, 40, fire).
+move(aqua_jet, 40, water).
+move(bubble, 40, water).
+move(water_gun, 40, water).
+move(thundershock, 40, electric).
+move(leafage, 40, grass).
+move(mega_drain, 40, grass).
+move(ice_shard, 40, ice).
+move(powder_snow, 40, ice).
+move(mach_punch, 40, fighting).
+move(rock_smash, 40, fighting).
+move(vacuum_wave, 40, fighting).
+move(acid, 40, poison).
+move(acid_spray, 40, poison).
+move(gust, 40, flying).
+move(fury_cutter, 40, bug).
+move(accelerock, 40, rock).
+move(shadow_sneak, 40, ghost).
+move(twister, 40, dragon).
+move(pursuit, 40, dark).
+move(bullet_punch, 40, steel).
+
+move(vine_whip, 45, grass).
+
+move(snore, 50, normal).
+move(weather_ball, 50, normal).
+move(flame_charge, 50, fire).
+move(charge_beam, 50, electric).
+move(karate_chop, 50, fighting).
+move(clear_smog, 50, poison).
+move(poison_fang, 50, poison).
+move(poison_tail, 50, poison).
+move(confusion, 50, psychic).
+move(fell_stinger, 50, bug).
+move(struggle_bug, 50, bug).
+move(rock_throw, 50, rock).
+move(smack_down, 50, rock).
+move(payback, 50, dark).
+move(metal_claw, 50, steel).
+
+move(vice_grip, 55, normal).
+move(electroweb, 55, electric).
+move(razor_leaf, 55, grass).
+move(icy_wind, 55, ice).
+move(mud_shot, 55, ground).
+move(acrobatics, 55, flying).
+move(snarl, 55, dark).
+
+move(flame_wheel, 60, fire).
+move(incinerate, 60, fire).
+move(water_pulse, 60, water).
+move(zippy_zap, 60, electric).
+move(shock_wave, 60, electric).
+move(magical_leaf, 60, grass).
+move(needle_arm, 60, grass).
+move(avalanche, 60, ice).
+move(frost_breath, 60, ice).
+move(circle_throw, 60, fighting).
+move(force_palm, 60, fighting).
+move(double_kick, 60, fighting).
+move(bulldoze, 60, ground).
+move(aerial_ace, 60, flying).
+move(air_cutter, 60, flying).
+move(pluck, 60, flying).
+move(wing_attack, 60, flying).
+move(heart_stamp, 60, psychic).
+move(bug_bite, 60, bug).
+move(silver_wind, 60, bug).
+move(ancient_power, 60, rock).
+move(rock_tomb, 60, rock).
+move(ominous_wind, 60, ghost).
+move(shadow_punch, 60, ghost).
+move(breaking_swipe, 60, dragon).
+move(dragon_breath, 60, dragon).
+move(dragon_tail, 60, dragon).
+move(assurance, 60, dark).
+move(brutal_swing, 60, dark).
+move(feint_attack, 60, dark).
+move(bite, 60, dark).
+move(thief, 60, dark).
+move(magnet_bomb, 60, steel).
+
+move(stomp, 65, normal).
+move(fire_fang, 65, fire).
+move(brine, 65, water).
+move(bubble_beam, 65, water).
+move(octazooka, 65, water).
+move(spark, 65, electric).
+move(thunder_fang, 65, electric).
+move(aurora_beam, 65, ice).
+move(ice_fang, 65, ice).
+move(low_sweep, 65, fighting).
+move(sludge, 65, poison).
+move(venoshock, 65, poison).
+move(bone_club, 65, ground).
+move(mud_bomb, 65, ground).
+move(psybeam, 65, psychic).
+move(steam_roller, 65, bug).
+move(mirror_shot, 65, steel).
+
+move(dizzy_punch, 70, normal).
+move(headbutt, 70, normal).
+move(slash, 70, normal).
+move(flame_burst, 70, fire).
+move(rising_voltage, 70, electric).
+move(grassy_glide, 70, grass).
+move(freeze_dry, 70, ice).
+move(vital_throw, 70, fighting).
+move(cross_poison, 70, poison).
+move(scorching_sands, 70, ground).
+move(luster_purge, 70, psychic).
+move(psycho_cut, 70, psychic).
+move(u_turn, 70, bug).
+move(shadow_claw, 70, ghost).
+move(night_slash, 70, dark).
+move(sucker_punch, 70, dark).
+move(steel_wing, 70, steel).
+
+move(crush_claw, 75, normal).
+move(fire_punch, 75, fire).
+move(razor_shell, 75, water).
+move(thunder_punch, 75, electric).
+move(ice_punch, 75, ice).
+move(brick_break, 75, fighting).
+move(drain_punch, 75, fighting).
+move(air_slash, 75, flying).
+move(signal_beam, 75, bug).
+move(rock_slide, 75, rock).
+
+move(extreme_speed, 80, normal).
+move(lava_plume, 80, fire).
+move(scald, 80, water).
+move(waterfall, 80, water).
+move(discharge, 80, electric).
+move(seed_bomb, 80, grass).
+move(aura_sphere, 80, fighting).
+move(poison_jab, 80, poison).
+move(drill_run, 80, ground).
+move(drill_peck, 80, flying).
+move(oblivion_wing, 80, flying).
+move(dual_wingbeat, 80, flying).
+move(extrasensory, 80, psychic).
+move(psyshock, 80, psychic).
+move(zen_headbutt, 80, psychic).
+move(leech_life, 80, bug).
+move(x_scissor, 80, bug).
+move(power_gem, 80, rock).
+move(shadow_ball, 80, ghost).
+move(dragon_claw, 80, dragon).
+move(dual_chop, 80, dragon).
+move(crunch, 80, dark).
+move(dark_pulse, 80, dark).
+move(flash_canon, 80, steel).
+move(iron_head, 80, steel).
+
+move(blaze_kick, 85, fire).
+move(liquidation, 85, water).
+move(icicle_crash, 85, ice).
+move(secret_sword, 85, fighting).
+move(sky_uppercut, 85, fighting).
+move(psychic_fangs, 85, psychic).
+move(shadow_bone, 85, ghost).
+move(dragon_pulse, 85, dragon).
+move(darkest_lariat, 85, dark).
+move(night_daze, 85, dark).
+
+move(take_down, 90, normal).
+move(flamethrower, 90, fire).
+move(aqua_tail, 90, water).
+move(muddy_water, 90, water).
+move(surf, 90, water).
+move(thunderbolt, 90, electric).
+move(energy_ball, 90, grass).
+move(leaf_blade, 90, grass).
+move(petal_blizzard, 90, grass).
+move(ice_beam, 90, ice).
+move(sacred_sword, 90, fighting).
+move(sludge_bomb, 90, poison).
+move(earth_power, 90, ground).
+move(fly, 90, flying).
+move(psychic, 90, psychic).
+move(bug_buzz, 90, bug).
+move(pollen_puff, 90, bug).
+move(phantom_force, 90, ghost).
+move(meteor_mash, 90, steel).
+
+move(heat_wave, 95, fire).
+move(sludge_wave, 95, poison).
+move(foul_play, 95, dark).
+
+move(egg_bomb, 100, normal).
+move(water_shuriken, 100, water).
+move(crab_hammer, 100, water).
+move(cross_chop, 100, fighting).
+move(dynamic_punch, 100, fighting).
+move(bonemerang, 100, ground).
+move(earthquake, 100, ground).
+move(aeroblast, 100, flying).
+move(dream_eater, 100, psychic).
+move(psystrike, 100, psychic).
+move(stone_edge, 100, rock).
+move(dragon_rush, 100, dragon).
+move(gear_grind, 100, steel).
+move(iron_tail, 100, steel).
+
+move(fire_blast, 110, fire).
+move(hydro_pump, 110, water).
+move(origin_pulse, 110, water).
+move(thunder, 110, electric).
+move(blizzard, 110, ice).
+move(hurricane, 110, flying).

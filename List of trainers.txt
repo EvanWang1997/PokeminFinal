@@ -1,0 +1,32 @@
+Bug Catcher Jeff, Forest, Easy
+Bug Catcher Julios, Forest, Easy
+Bug Catcher Ted, Forest, Easy
+Bug Catcher Maxim, Forest, Easy
+
+Bike Manager Steve, Hill, Easy
+Biker Brake, Hill, Easy
+Biker Pedro, Hill, Easy
+Biker Wheelium, Hill, Med
+Biker Helmut, Hill, Med
+
+Jack of the Bridge, Bridge, Med
+Redundant Jack of the Bridge, Bridge, Med
+Big Fish, Bridge, Med
+
+Researcher Cindi, Tower, Med
+Researcher Chris, Tower, Med
+Researcher Allan, Tower, Med
+Researcher Jonathan, Tower, Med
+Researcher Eric, Tower, Med
+Researcher Santa, Tower, Med
+
+Monk Kant, Mountain, Med
+Monk Marx, Mountain, Med
+Monk Locke, Mountain, Med
+Monk Niet, Mountain, Med
+
+Platato, Mountain, Hard
+Ryan Lee, Tower, Hard
+
+
+Yourself, City, Hard

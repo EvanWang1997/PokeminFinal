@@ -4,12 +4,12 @@
 
 /*Writes the input line, along with a new line*/
 line(X) :-
-    write(X),nl.
-    % sleep(1).
+    write(X),nl,
+    sleep(1).
 
 /*Takes a user, writes their name, and then the line they speak*/
 speak(Name, Words):-
     write(Name),
     write(': '),
-    write(Words), nl.
-    % sleep(1).
+    write(Words), nl,
+    sleep(1).

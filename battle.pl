@@ -4,7 +4,6 @@
 :- use_module(trainers).
 :- use_module(minsters).
 :- use_module(moves).
-:- use_module(stats).
 :- use_module(maincharacter).
 
 :- dynamic(battleover/1).
